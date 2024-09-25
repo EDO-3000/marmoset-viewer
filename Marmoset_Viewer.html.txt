@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmoset Viewer</title>
+    <script src="https://viewer.marmoset.co/main/marmoset.js"></script>
+</head>
+<body>
+    <script>
+        var params = { width: 800, height: 600, autoStart: true };
+        var myviewer = marmoset.embed("https://cdnb.artstation.com/p/assets/marmosets/attachments/022/115/435/original/marmo_artstation_V2.mview?1574173020", params);
+    </script>
+</body>
+</html>
